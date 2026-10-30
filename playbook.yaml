@@ -10,7 +10,6 @@
      ansible.builtin.debug:
       msg: "Hello World"
     
----
 - name: Update web servers
   hosts: webservers
   remote_user: root
